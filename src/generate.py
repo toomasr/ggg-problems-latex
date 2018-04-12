@@ -13,7 +13,7 @@ with open(template, "r") as myfile:
 with open(templateBlock, "r") as myfile:
 	templateBlockStr = myfile.read()
 
-images = glob.glob("problems/*.png")
+images = glob.glob("problems/easy/*.png")
 images.sort()
 
 bodyResult = ""
