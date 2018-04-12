@@ -1,0 +1,11 @@
+These problem files are from https://github.com/gogameguru/go-problems
+
+See the LICENSE file in this folder for their license. Better yet visit
+their GitHub page and see it from there.
+
+I haven't changed any problems except some name prefixes, mostly with a
+command that looks like
+
+zmv 'ggg-easy-([0-9])([0-9])(.*)' 'ggg-easy-0$1$2$3'
+
+or similar.
