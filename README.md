@@ -6,6 +6,13 @@ files it generated I realised that I personally like a different type of approac
 
 I like a single PDF with all the problems and only opening up solutions when I'm stuck or I want to make sure I was correct.
 
+Get the files
+=====================
+
+* [Easy Problems](https://github.com/toomasr/ggg-problems-latex/raw/master/releases/easy-problems.pdf)
+* [Intermediate Problems](https://github.com/toomasr/ggg-problems-latex/raw/master/releases/intermediate-problems.pdf)
+* [Hard Problems](https://github.com/toomasr/ggg-problems-latex/raw/master/releases/hard-problems.pdf)
+
 Status of the project
 =====================
 
