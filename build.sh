@@ -14,6 +14,8 @@ pdflatex -output-directory=build build/intermediate.tex
 pdflatex -output-directory=build build/hard.tex
 
 # Move result to releases
-cp build/easy.pdf releases/easy-problems.pdf
-cp build/intermediate.pdf releases/intermediate-problems.pdf
-cp build/hard.pdf releases/hard-problems.pdf
+if [[ "$@" == "release" ]];then
+  cp build/easy.pdf releases/easy-problems.pdf
+  cp build/intermediate.pdf releases/intermediate-problems.pdf
+  cp build/hard.pdf releases/hard-problems.pdf
+fi
